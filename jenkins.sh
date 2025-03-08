@@ -11,7 +11,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkin
 
 #STEP-3: DOWNLOAD JAVA11 AND JENKINS
 sudo apt update && sudo apt upgrade -y
-sudo apt install fontconfig openjdk-17-jre -y
+sudo apt install openjdk-11-jdk -y
 sudo apt install jenkins -y
 update-alternatives --config java
 
